@@ -1,0 +1,16 @@
+*{
+    Box-sizing: border-box;
+    Margin: 0;
+    Padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li img {
+    width: 50px;
+
+}
