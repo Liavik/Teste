@@ -38,7 +38,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../metal.jpg) no-repeat;
+    background: #5f2c82 url(../imagen/metal.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 200px;
@@ -56,4 +56,12 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.8em;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
 }
