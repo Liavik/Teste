@@ -28,6 +28,13 @@ footer > .container {
     padding-bottom: 16px;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
 nav {
     background-color: #575fcf;
     padding: 16px 0;
@@ -65,7 +72,7 @@ nav li a{
     display: flex;
 }
 
-sobre-a-loja img{
+#sobre-a-loja img{
     max-width: 400px;
     margin-right: 24px;
 }
@@ -96,7 +103,7 @@ section h2 {
     margin: 16px 0;
 }
 
-.item-cental {
+.item-central {
     margin: 0 5%;
 }
 
