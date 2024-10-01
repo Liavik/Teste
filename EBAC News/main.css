@@ -62,7 +62,7 @@ header {
     grid-template-columns: 70% 30%; 
 }
 
-.noticia img {
+.Noticia img {
     max-width: 100%;
     height: auto;
 }
@@ -92,7 +92,7 @@ aside .noticia {
     margin-bottom: 24px;
 }
 
-.noticias {
+.Noticias {
     display: grid;
     grid-template-columns: repeat(3, 32.6%);
     column-gap: 1%;
