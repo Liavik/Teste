@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header > .cabecalho {
+    background-color: #3868D6;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    color: #fff;
+    font-style: italic;
+}
+
+nav {
+    padding: 16px 0;
+    display: block;
+}
+
+nav a{
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#sobre-a-loja img{
+    max-width: 450px;
+    margin-right: 24px;
+}
+
+section {
+    padding: 48px 0;
+}
+
+section h2 {
+    color: #3868D6;
+    border-bottom: 2px solid #3868D6;
+    margin-bottom: 16px;
+    padding-bottom: 15px;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: repeat(4, 24.2%);
+    column-gap: 1%;
+    row-gap: 5%;
+}
+
+.lista-produtos article img {
+    max-width: 100%;
+}
+
+.lista-produtos article h3 {
+    margin-top: 50px;
+}
+
+.lista-produtos article p {
+    margin: 15px 0;
+    height: 57px;
+}
+
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #3868D6;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+    main {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .container-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sobre-a-loja img{
+        max-width: 75%;
+    }    
+
+    #sobre-a-loja h2 {
+        margin: 40px 0 20px;
+    }
+
+    .conteudo {
+        grid-template-columns: repeat(2, 49.5%);
+    }
+
+    .lista-produtos article img {
+        max-width: 100%;
+    }
+
+    .lista-produtos article h3 {
+        height: 46px;
+    }
+
+    .lista-produtos article p {
+        height: 38px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    nav >.container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .container-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sobre-a-loja img{
+        max-width: 90%;
+    }    
+
+    #sobre-a-loja h2 {
+        margin: 40px 0 20px;
+    }
+
+    .conteudo {
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .lista-produtos article img {
+        max-width: 100%;
+    }
+}
